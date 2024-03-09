@@ -52,9 +52,26 @@
 }
 .banner-container #image-2{
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: -39px;
+    left: -129px;
     z-index: -1;
+}
+
+.statistics-wrapper {
+    display: flex;
+    font-size: 40px;
+    margin: 0 118px 0 42px;
+    justify-content: space-between;
+}
+
+.statistics-container img {
+    position: relative;
+    height: 45.19px;
+    width: 41.44px;
+    top: 75px;
+    left: -5px;
+    z-index: -1;
+
 }
 
 .banner-wrapper {
@@ -69,21 +86,21 @@
 .title-container p {
     font-weight: bold;
     font-size: 64px;
-    margin: 0;
+    margin: 23px;
 }
 
 .blessing-text-container {
     margin-top: 50px;
 }
 .blessing-text-container p {
-    margin: 0;
+    margin: 23px;
     font-size: 18px;
     color: #6B6B6B;
 }
 
 .banner-button-container {
     display: flex;
-    margin-top: 50px;
+    margin: 84px 0 0 23px;
     font-size: 17px;
 }
 
@@ -116,9 +133,6 @@
 }
 
 .statistics-container {
-    display: flex;
-    font-size: 40px;
-    margin-top: 60px;
 }
 .statistics-container span {
     margin-top: 10px;
@@ -131,14 +145,25 @@
 .building-done-container {
     margin-right: 70px;
 }
+
+.logos-wrapper {
+    padding: 70px;
+    background: #FAFAFA;
+    border-radius: 100px;
+}
 .logos-container {
-    margin-top: 200px;
-    width: 1170px;
-    height: 180px;
+    margin-top: 183px;
+
 }
 .frame1 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 .logo1 {
-    margin-right: 50px;
+}
+
+.orangeelipse p img {
+    
 }
