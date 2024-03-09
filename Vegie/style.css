@@ -1,0 +1,144 @@
+.project-container {
+    max-width: 1255px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: Poppins, sans-serif;
+    position: relative;
+}
+
+.navigation-container {
+}
+
+.navigation-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 74px 0 0;
+    height: 38px;
+    
+}
+
+
+.navigation-logo {
+    color: #18A7B9;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navigation-logo p {
+    height: 38px;
+    margin: 0px;
+}
+
+.navigation-menu {
+    padding-right: 50px;
+}
+
+.navigation-menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.navigation-menu ul li {
+    margin: 0 20px;
+}
+.banner-container #image-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.banner-container #image-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner-wrapper {
+    width: 681px;
+    height: 624px;
+    margin: 112px 0 0;
+    
+}
+.title-container {
+}
+
+.title-container p {
+    font-weight: bold;
+    font-size: 64px;
+    margin: 0;
+}
+
+.blessing-text-container {
+    margin-top: 50px;
+}
+.blessing-text-container p {
+    margin: 0;
+    font-size: 18px;
+    color: #6B6B6B;
+}
+
+.banner-button-container {
+    display: flex;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.explore-button {
+    background-color: #18A7B9; /* Replace #ff0000 with the desired color code */
+    color: #FFFFFF; /* Set text color to contrast with the background */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Optional: add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0px 0px 6px #007bff;
+    height: 64px;
+    width: 214px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+.contact-us-button {
+    background-color: #FFFFFF; /* Replace #ff0000 with the desired color code */
+    color: #18A7B9; /* Set text color to contrast with the background */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-color: #18A7B9; /* Remove default button border */
+    border-width: 1px;
+    border-radius: 5px; /* Optional: add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    height: 64px;
+    width: 214px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.statistics-container {
+    display: flex;
+    font-size: 40px;
+    margin-top: 60px;
+}
+.statistics-container span {
+    margin-top: 10px;
+    font-size: 20px !important;
+}
+
+.projects-done-container {
+    margin-right: 70px;
+}
+.building-done-container {
+    margin-right: 70px;
+}
+.logos-container {
+    margin-top: 200px;
+    width: 1170px;
+    height: 180px;
+}
+.frame1 {
+    display: flex;
+}
+.logo1 {
+    margin-right: 50px;
+}
